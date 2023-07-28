@@ -1,13 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: artist-api
-  description: Retrieve artist details
+  name: petstore-api
+  description: Retrieve petstore details
 spec:
   type: openapi
   lifecycle: production
-  owner: artist-relations-team
-  system: artist-engagement-portal
+  owner: petstore-team
+  system: petstore-portal
+  providesApis:
+    - petstore
   definition: |
     openapi: 3.0.3
     info:
