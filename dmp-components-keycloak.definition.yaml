@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dmp-components-keycloak
+  title: Identity provider
+  description: Identity provider
+spec:
+  type: service
+  lifecycle: production
+  owner: system-team
+  providesApis:
+    - keycloak-admin-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: keycloak-admin-api
+  description: Manages User & Role API interfaces
+  title: Keycloak Rest API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: system-team
