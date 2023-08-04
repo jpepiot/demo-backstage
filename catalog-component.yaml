@@ -4,7 +4,7 @@ metadata:
   name: dmp-services-entity
   description: Manages activity, item and file informations
 spec:
-  type: rest-api
+  type: service
   lifecycle: production
   owner: core-team
   dependsOn:
