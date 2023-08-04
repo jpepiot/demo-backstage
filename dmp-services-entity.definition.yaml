@@ -9,7 +9,7 @@ spec:
   lifecycle: production
   owner: core-team
   dependsOn:
-    - resource:default/entity-db
+    - resource:default/dmp-databases-entity
   providesApis:
     - entity-api
 ---
