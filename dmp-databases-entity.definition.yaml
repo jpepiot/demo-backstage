@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dmp-databases-entity
+  description: Stores entity details
+spec:
+  type: database
+  owner: core-team
