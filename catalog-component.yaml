@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dmp-services-entity
+  description: Manages activity, item and file informations
+spec:
+  type: rest-api
+  lifecycle: production
+  owner: core-team
+  dependsOn:
+    - resource:default/entity-db
+  providesApis:
+    - entity-api
