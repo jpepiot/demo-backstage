@@ -10,6 +10,7 @@ spec:
   owner: core-team
   consumesApi:
     - entity-api
+    - user-api
   providesApis:
     - public-api
 ---
