@@ -7,6 +7,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: core-team
+  apiProvidedBy: dmp-services-entity
   providesApis:
     - entity
   definition:
