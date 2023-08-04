@@ -21,3 +21,4 @@ spec:
   type: openapi
   lifecycle: production
   owner: system-team
+  definition:
