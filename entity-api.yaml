@@ -8,8 +8,6 @@ spec:
   lifecycle: production
   owner: core-team
   apiProvidedBy: dmp-services-entity
-  providesApis:
-    - entity
   definition: |
     openapi: 3.0.1
     info:
