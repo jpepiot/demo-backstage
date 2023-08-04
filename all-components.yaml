@@ -5,6 +5,7 @@ metadata:
   description: A collection of all components
 spec:
   targets:
+    - ./org.yaml
     - ./core-team.yaml
     - ./dmp-components-keycloak.definition.yaml
     - ./dmp-databases-entity.definition.yaml
