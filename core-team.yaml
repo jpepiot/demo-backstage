@@ -5,3 +5,4 @@ metadata:
   description: Core Team
 spec:
   type: team
+  children: []
