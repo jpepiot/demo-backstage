@@ -6,6 +6,7 @@ metadata:
 spec:
   targets:
     - ./org.yaml
+    - ./ls-domain.yaml
     - ./core-team.yaml
     - ./dmp-components-keycloak.definition.yaml
     - ./dmp-databases-entity.definition.yaml
