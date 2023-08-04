@@ -21,4 +21,9 @@ spec:
   type: openapi
   lifecycle: production
   owner: system-team
-  definition:
+  definition: |
+    openapi: 3.0.1
+    info:
+        title: Keycloak API
+        version: 0.0.0-1.22
+        description: Keycloak Admin Open API Specifications
