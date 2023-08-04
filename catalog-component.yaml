@@ -10,3 +10,5 @@ spec:
   owner: core-team
   dependsOn:
     - resource:default/entity-db
+  providesApis:
+    - entity
