@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: dmp-services-aggregator
-  title: API Gateway
-  description: Public API interface
+  title: API Gateway service
+  description: Aggregator
 spec:
   type: service
   lifecycle: production
@@ -17,8 +17,8 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: public-api
-  description: Manages activity, item and file informations API interfaces
-  title: Entity Rest API
+  description: Athena Public API
+  title: Athena Public API
 spec:
   type: openapi
   lifecycle: production
@@ -26,7 +26,7 @@ spec:
   definition: |
     openapi: 3.0.0
     info:
-        title: Athena Public API (1.22)
+        title: Athena Public API
         version: v1
         description: Welcome to the official Athena public API.
         contact:
