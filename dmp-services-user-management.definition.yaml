@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dmp-services-user-management
+  title: User management service
+  description: Manages user & role informations
+spec:
+  type: service
+  lifecycle: production
+  owner: core-team
+  dependsOn:
+    - resource:default/dmp-databases-user-management
+  providesApis:
+    - user-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: user-api
+  description: Manages User & Role API interfaces
+  title: User management Rest API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: core-team
