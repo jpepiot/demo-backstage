@@ -4,6 +4,8 @@ metadata:
   name: dmp-services-entity
   title: Entity service
   description: Manages activity, item and file informations
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs
   tags:
     - api
     - rest
