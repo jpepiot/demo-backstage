@@ -4,6 +4,14 @@ metadata:
   name: dmp-services-entity
   title: Entity service
   description: Manages activity, item and file informations
+  tags:
+    - api
+    - rest
+    - dotnetcore
+  links:
+    - url: https://frbor-gitlab01.emea.thermo.com/DMP/dmp-services/dmp-services-entity
+      title: GitLab repo
+      icon: gitlab
 spec:
   type: service
   lifecycle: production
