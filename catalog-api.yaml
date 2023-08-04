@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: services-entity
+  description: Manages activity, item and file informations
+spec:
+  type: openapi
+  lifecycle: production
+  owner: core-team
+  providesApis:
+    - entity
+  definition:
+    $text: http://registry-athena-tools.frbor-seti-lb.emea.thermo.com/ui/artifacts/athena-public/public-api/versions/latest
