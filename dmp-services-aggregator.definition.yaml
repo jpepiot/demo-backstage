@@ -8,7 +8,7 @@ spec:
   type: service
   lifecycle: production
   owner: core-team
-  consumesApi:
+  consumesApis:
     - entity-api
     - user-api
   providesApis:
