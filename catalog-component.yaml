@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: dmp-services-entity
+  title: Entity service
   description: Manages activity, item and file informations
 spec:
   type: service
