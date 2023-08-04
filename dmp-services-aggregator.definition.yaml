@@ -3,13 +3,11 @@ kind: Component
 metadata:
   name: dmp-services-aggregator
   title: API Gateway service
-  description: Aggregator
+  description: API Gateway service
 spec:
   type: service
   lifecycle: production
   owner: core-team
-  consumesApi:
-    - entity-api
   providesApis:
     - public-api
 ---
