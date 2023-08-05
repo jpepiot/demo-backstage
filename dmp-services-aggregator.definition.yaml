@@ -25,4 +25,4 @@ spec:
   lifecycle: production
   owner: core-team
   definition:
-    $text: http://registry-athena-tools.frbor-seti-lb.emea.thermo.com/ui/artifacts/athena-public/public-api/versions/latest
+    $text: http://registry-athena-tools.frbor-seti-lb.emea.thermo.com/f4cf9115-f389-49d2-9161-76341679a385
