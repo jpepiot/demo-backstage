@@ -13,6 +13,10 @@ spec:
     - user-api
   providesApis:
     - public-api
+  tags:
+    - api
+    - rest
+    - dotnetcore
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
