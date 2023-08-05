@@ -12,6 +12,10 @@ spec:
     - resource:default/dmp-databases-user-management
   providesApis:
     - user-api
+  tags:
+    - api
+    - rest
+    - dotnetcore
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
