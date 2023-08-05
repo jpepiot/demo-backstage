@@ -6,6 +6,7 @@ metadata:
   description: Manages activity, item and file informations
   annotations:
     backstage.io/techdocs-ref: dir:./docs
+    sonarqube.org/project-key: sonarqube-community-rd-k8s01.frbor-seti-lb.emea.thermo.com/dmp-services-entity
   tags:
     - api
     - rest
