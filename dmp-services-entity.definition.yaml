@@ -5,7 +5,6 @@ metadata:
   title: Entity service
   description: Manages activity, item and file informations
   annotations:
-    backstage.io/source-location: https://frbor-gitlab01.emea.thermo.com/DMP/dmp-services/dmp-services-entity
     backstage.io/techdocs-ref: dir:.
     sonarqube.org/project-key: dmp-services-entity
     gitlab.com/project-id: '702'
