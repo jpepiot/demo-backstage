@@ -8,6 +8,7 @@ spec:
     - ./org.yaml
     - ./all-systems.yaml
     - ./all-teams.yaml
+    - ./all-resources.yaml
     - ./ls.domain.yaml
     - ./platform.domain.yaml
     - ./dmp-components-keycloak.definition.yaml
