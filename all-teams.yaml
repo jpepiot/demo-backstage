@@ -7,5 +7,7 @@ spec:
   targets:
     - ./teams/core-team.yaml
     - ./teams/core-portal-team.yaml
+    - ./teams/system-team.yaml
     - ./teams/ls-team.yaml
+    
 
