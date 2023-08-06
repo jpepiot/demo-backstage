@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: dmp-applications-portal
+  title: Athena Web Portal
   description: Athena Portal
   tags:
     - angular
