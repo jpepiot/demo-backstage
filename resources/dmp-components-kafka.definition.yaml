@@ -1,8 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: dmp-components-kafka
-  description: Event streaming platform
-spec:
-  type: messaging
-  owner: system-team
