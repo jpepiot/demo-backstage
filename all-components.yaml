@@ -5,12 +5,11 @@ metadata:
   description: A collection of all components
 spec:
   targets:
-    - ./all-systems.yaml
     - ./org.yaml
+    - ./all-systems.yaml
+    - ./all-teams.yaml
     - ./ls.domain.yaml
     - ./platform.domain.yaml
-    - ./core.team.yaml
-    - ./ls.team.yaml
     - ./dmp-components-keycloak.definition.yaml
     - ./dmp-databases-entity.definition.yaml
     - ./dmp-services-aggregator.definition.yaml
