@@ -5,4 +5,5 @@ metadata:
   description: System Team
 spec:
   type: team
+  parent: athena
   children: []
