@@ -1,8 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: platform
-  description: Athena Platform
-  title: Athena Platform
-spec:
-  owner: core-team
