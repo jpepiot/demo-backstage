@@ -10,12 +10,12 @@ spec:
   dependsOn:
     - resource:default/dmp-components-kafka
   providesApis:
-    - v1.public.data.activitie-topic
+    - v1.public.data.activities-topic
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: v1.public.data.activitie-topic
+  name: v1.public.data.activities-topic
   description: Public Activities Kafka topic
 spec:
   type: asyncapi
