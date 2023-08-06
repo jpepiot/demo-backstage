@@ -10,7 +10,7 @@ spec:
     - ./platform.domain.yaml
     - ./core.team.yaml
     - ./ls.team.yaml
-    - ./file-management.system.yam
+    - ./file-management.system.yaml
     - ./dmp-components-keycloak.definition.yaml
     - ./dmp-databases-entity.definition.yaml
     - ./dmp-services-aggregator.definition.yaml
