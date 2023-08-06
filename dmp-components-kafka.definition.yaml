@@ -6,6 +6,7 @@ metadata:
   description: Kafka platform
 spec:
   type: messaging
+  lifecycle: production
   owner: system-team
 ---
 apiVersion: backstage.io/v1alpha1
