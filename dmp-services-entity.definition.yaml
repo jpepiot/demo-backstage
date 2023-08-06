@@ -8,6 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     sonarqube.org/project-key: dmp-services-entity
     gitlab.com/project-id: '702'
+    gitlab.com/instance: frbor-gitlab01.emea.thermo.com
   tags:
     - dotnetcore
   links:
