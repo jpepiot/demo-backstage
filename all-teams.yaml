@@ -6,5 +6,6 @@ metadata:
 spec:
   targets:
     - ./teams/core-team.yaml
+    - ./teams/core-portal-team.yaml
     - ./teams/ls-team.yaml
 
