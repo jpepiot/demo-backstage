@@ -4,6 +4,8 @@ metadata:
   name: dmp-services-aggregator
   title: API Gateway service
   description: API Gateway service
+  tags:
+    - dotnetcore
 spec:
   type: service
   lifecycle: production
