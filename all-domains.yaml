@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: athena-domains
+  description: A collection of all domains
+spec:
+  targets:
+    - ./domains/platform-domain.yaml
+    - ./domains/ls-domain.yaml
