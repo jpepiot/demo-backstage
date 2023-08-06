@@ -9,8 +9,8 @@ metadata:
     sonarqube.org/project-key: dmp-services-entity
     gitlab.com/project-id: '702'
     gitlab.com/instance: frbor-gitlab01.emea.thermo.com
-    'backstage.io/kubernetes-id': <BACKSTAGE_ENTITY_NAME>
-    'backstage.io/kubernetes-namespace': master
+    backstage.io/kubernetes-id: <BACKSTAGE_ENTITY_NAME>
+    backstage.io/kubernetes-namespace: master
   tags:
     - dotnetcore
   links:
