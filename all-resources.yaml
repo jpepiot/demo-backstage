@@ -5,5 +5,4 @@ metadata:
   description: A collection of all Athena resources
 spec:
   targets:
-    - ./resources/dmp-components-kafka.definition.yaml
     - ./resources/v1.public.data.activities-topic.yaml
