@@ -12,6 +12,30 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  name: kafka
+  title: Kafka Streaming
+  description: Kafka Streaming
+spec:
+  type: service
+  lifecycle: production
+  owner: system-team
+  subcomponentOf: dmp-components-kafka
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kafka-schema-registry
+  title: Kafka Schema Registry
+  description: Kafka Schema Registry
+spec:
+  type: service
+  lifecycle: production
+  owner: system-team
+  subcomponentOf: dmp-components-kafka
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
   name: kafka-rest
   title: Kafka Rest proxy
   description: Kafka Rest Proxy
