@@ -6,8 +6,8 @@ metadata:
   links:
     - url: http://www.acme.com/
       title: Website
-    - url: https://meta.wikimedia.org/wiki/
-      title: Intranet
+    - url: https://developer.athena.emea.thermo.com/
+      title: Developer
 spec:
   type: organization
   profile:
