@@ -3,6 +3,9 @@ kind: Resource
 metadata:
   name: dmp-databases-entity
   description: Stores entity details
+  tags:
+    - postgresql
 spec:
   type: database
   owner: core-team
+  
