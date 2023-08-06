@@ -6,7 +6,7 @@ metadata:
   description: Manages activity, item and file informations
   annotations:
     backstage.io/techdocs-ref: dir:.
-    sonarqube.org/project-key: default/dmp-services-entity
+    sonarqube.org/project-key: dmp-services-entity
     gitlab.com/project-id: '702'
   tags:
     - api
