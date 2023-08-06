@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: dmp-components-kafka
   title: Kafka platform
-  description: Kafka platform
+  description: Kafka Platform
 spec:
   type: messaging
   lifecycle: production
