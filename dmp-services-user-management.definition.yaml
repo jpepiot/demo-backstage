@@ -4,6 +4,8 @@ metadata:
   name: dmp-services-user-management
   title: User management service
   description: Manages user & role informations
+  tags:
+    - dotnetcore
 spec:
   type: service
   lifecycle: production
@@ -12,10 +14,6 @@ spec:
     - resource:default/dmp-databases-user-management
   providesApis:
     - user-api
-  tags:
-    - api
-    - rest
-    - dotnetcore
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
