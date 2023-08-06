@@ -8,7 +8,7 @@ spec:
   lifecycle: production
   owner: core-team
   dependsOn:
-    - kafka
+    - component:kafka
   providesApis:
     - v1.public.data.activities-topic
 ---
