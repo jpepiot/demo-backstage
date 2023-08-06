@@ -6,8 +6,10 @@ metadata:
 spec:
   targets:
     - ./org.yaml
-    - ./ls-domain.yaml
-    - ./core-team.yaml
+    - ./ls.domain.yaml
+    - ./platform.domain.yaml
+    - ./core.team.yaml
+    - ./ls.team.yaml
     - ./file-management.system.yam
     - ./dmp-components-keycloak.definition.yaml
     - ./dmp-databases-entity.definition.yaml
