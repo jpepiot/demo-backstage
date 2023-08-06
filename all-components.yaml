@@ -8,6 +8,7 @@ spec:
     - ./org.yaml
     - ./ls-domain.yaml
     - ./core-team.yaml
+    - ./file-management.system.yam
     - ./dmp-components-keycloak.definition.yaml
     - ./dmp-databases-entity.definition.yaml
     - ./dmp-services-aggregator.definition.yaml
