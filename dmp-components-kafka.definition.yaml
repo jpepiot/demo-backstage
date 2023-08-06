@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: dmp-components-kafka
-  title: Kafka platform
+  title: Kafka Platform
   description: Kafka Platform
 spec:
   type: messaging
