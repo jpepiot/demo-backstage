@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dmp-applications-portal
+  description: Athena Portal
+  tags:
+    - angular
+spec:
+  type: website
+  lifecycle: production
+  owner: core-portal-team
