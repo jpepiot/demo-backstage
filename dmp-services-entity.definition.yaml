@@ -9,8 +9,6 @@ metadata:
     sonarqube.org/project-key: dmp-services-entity
     gitlab.com/project-id: '702'
   tags:
-    - api
-    - rest
     - dotnetcore
   links:
     - url: https://frbor-gitlab01.emea.thermo.com/DMP/dmp-services/dmp-services-entity
