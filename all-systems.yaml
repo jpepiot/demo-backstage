@@ -1,1 +1,8 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: athena-systems
+  description: A collection of all Athena systems
+spec:
+  targets:
+    - ./systems/file-management-system.yaml
