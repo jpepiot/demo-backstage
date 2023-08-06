@@ -1,1 +1,7 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: file-management
+  description: File management
+spec:
+  owner: core-team
