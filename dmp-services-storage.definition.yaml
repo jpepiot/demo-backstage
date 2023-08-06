@@ -5,6 +5,8 @@ metadata:
   title: Storage service
   description: Manages file storage
   sonarqube.org/project-key: dmp-services-storage
+  gitlab.com/project-id: '472'
+  gitlab.com/instance: frbor-gitlab01.emea.thermo.com
   tags:
     - dotnetcore
 spec:
