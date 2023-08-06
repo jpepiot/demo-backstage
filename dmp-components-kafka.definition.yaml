@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: dmp-components-kafka
-  title: Kafka component
+  title: Kafka platform
   description: Kafka platform
 spec:
   type: messaging
@@ -25,7 +25,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: kafka-connect
-  title: Kafka connect
+  title: Kafka Connect
   description: Kafka connect
 spec:
   type: service
