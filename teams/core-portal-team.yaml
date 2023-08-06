@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: core-portal-team
+  description: Core Portal Team
+spec:
+  type: team
+  children: []
