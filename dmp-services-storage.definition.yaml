@@ -4,6 +4,8 @@ metadata:
   name: dmp-services-storage
   title: Storage service
   description: Manages file storage
+  tags:
+    - dotnetcore
 spec:
   type: service
   lifecycle: production
@@ -12,10 +14,6 @@ spec:
     - resource:default/dmp-databases-entity
   providesApis:
     - storage-api
-  tags:
-    - api
-    - rest
-    - dotnetcore
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
