@@ -4,6 +4,7 @@ metadata:
   name: dmp-services-storage
   title: Storage service
   description: Manages file storage
+  sonarqube.org/project-key: dmp-services-storage
   tags:
     - dotnetcore
 spec:
