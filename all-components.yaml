@@ -18,3 +18,4 @@ spec:
     - ./dmp-services-entity.definition.yaml
     - ./dmp-services-storage.definition.yaml
     - ./dmp-services-user-management.definition.yaml
+    - ./dmp-components-kafka.definition.yaml
