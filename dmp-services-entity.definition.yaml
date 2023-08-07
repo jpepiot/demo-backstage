@@ -29,6 +29,17 @@ spec:
     - storage-api
 ---
 apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dmp-databases-entity
+  description: Stores entity details
+  tags:
+    - postgresql
+spec:
+  type: database
+  owner: core-team
+---
+apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: entity-api
