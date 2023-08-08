@@ -1,4 +1,5 @@
 site_name: 'example-docs'
+docs_dir: '.'
 
 nav:
   - Home: index.md
