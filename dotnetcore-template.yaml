@@ -59,14 +59,11 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: ./skeleton
+        url: ./
         values:
           name: ${{ parameters.name }}
           package: ${{ parameters.package }}
           projectType: ${{ parameters.projectType }}
-          coverage: ${{ parameters.coverage }}
-          lombok: ${{ parameters.lombok }}
-          metrics: ${{ parameters.metrics }}
           owner: ${{ parameters.owner }}
 
     # This step publishes the contents of the working directory to GitHub.
