@@ -30,9 +30,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: core-team
-  definition: |
-    openapi: 3.0.1
-    info:
-        title: Storage service API
-        version: 0.0.0-1.22
-        description: Storage service Open API Specifications
+  definition: 
+    $text: http://registry-athena-tools.frbor-seti-lb.emea.thermo.com/apis/registry/v2/groups/athena-public/artifacts/public-api
