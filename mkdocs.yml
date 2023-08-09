@@ -6,11 +6,3 @@ nav:
   
 plugins:
   - same-dir
-  - build_plantuml:
-      render: 'server' # or "local" for local rendering
-      disable_ssl_certificate_validation: true # for self-signed and invalid certs
-      output_format: 'svg'
-      diagram_root: 'docs' # should reside under docs_dir
-      output_folder: 'out'
-      input_folder: 'src'
-      input_extensions: ''
